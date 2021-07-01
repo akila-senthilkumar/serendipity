@@ -14,6 +14,13 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text('SERENDIPITY'),
         ),
+        body: Card(
+            child: Column(
+          children: <Widget>[
+            Image.asset('assets/img1.jpg'),
+            Text('Effort Makes you'),
+          ],
+        )),
       ),
     );
   }
